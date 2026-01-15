@@ -24,3 +24,7 @@ toggleDone(list, id) //vaihtaa tilaa
 filterByDone(list, done) //suodattaa taskit tilan mukaan
 sortByDueDate(list) //järjestää tehtävät eräpäivän mukaan
 ```
+
+Videodemo:
+
+https://youtu.be/Hqd4p1nCbls?si=xil7WXYfwOqRg5fg
