@@ -13,11 +13,14 @@ data class Task(
     val dueDate: String,
     val done: Boolean
 )
+```
 
 Sovellus sisältää seuraavat Kotlin-funktiot:
 
-addTask(list, task), lisää taskin
-removeTask(list, id), poistaa taskin
-toggleDone(list, id), vaihtaa tilaa
-filterByDone(list, done), suodattaa taskit tilan mukaan
-sortByDueDate(list), järjestää tehtävät eräpäivän mukaan
+```kotlin
+addTask(list, task) //lisää taskin
+removeTask(list, id) //poistaa taskin
+toggleDone(list, id) //vaihtaa tilaa
+filterByDone(list, done) //suodattaa taskit tilan mukaan
+sortByDueDate(list) //järjestää tehtävät eräpäivän mukaan
+```
