@@ -37,4 +37,4 @@ ViewModel on parempi kuin pelkkä remember sillä se säilyttää paremmin sovel
 
 Videodemo week2:
 
-
+https://youtu.be/ShRT1eF2pLs?si=Y1h4av4dge9ntOnG
