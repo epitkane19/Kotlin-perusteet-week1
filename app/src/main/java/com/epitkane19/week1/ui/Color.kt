@@ -1,4 +1,4 @@
-package com.epitkane19.week1.ui.theme
+package com.epitkane19.week1.`ui`
 
 import androidx.compose.ui.graphics.Color
 
