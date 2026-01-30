@@ -1,4 +1,4 @@
-package com.epitkane19.week1.domain
+package com.epitkane19.week1.model
 
 data class Task(
     val id: Int,

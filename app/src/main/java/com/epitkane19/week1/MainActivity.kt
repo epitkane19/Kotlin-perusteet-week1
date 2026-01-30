@@ -11,9 +11,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.epitkane19.week1.ui.theme.Kotlin_perusteetTheme
-import com.epitkane19.week1.domain.mockTasks
-import com.epitkane19.week1.domain.HomeScreen
+import com.epitkane19.week1.`ui`.Kotlin_perusteetTheme
+import com.epitkane19.week1.view.HomeScreen
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,7 +22,6 @@ class MainActivity : ComponentActivity() {
             Kotlin_perusteetTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     HomeScreen(
-                        tasks = mockTasks,
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

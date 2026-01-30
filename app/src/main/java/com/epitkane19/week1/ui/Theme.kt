@@ -1,6 +1,5 @@
-package com.epitkane19.week1.ui.theme
+package com.epitkane19.week1.`ui`
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

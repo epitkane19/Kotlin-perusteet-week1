@@ -1,4 +1,4 @@
-package com.epitkane19.week1.domain
+package com.epitkane19.week1.model
 
 val mockTasks = listOf(
     Task(1, "Tee kotlin-tehtävä", "Kotlin-perusteet, viikko 1", 1, "2026-01-15", false),
